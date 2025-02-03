@@ -1,0 +1,1 @@
+This repository demonstrates a type error encountered in Hack when using nullable int types in function parameters. The bug occurs because Hack's type checking doesn't handle the case where a nullable int parameter is passed a null value. The solution involves checking for null before performing operations on the parameter. 
